@@ -1,0 +1,28 @@
+@import "../../index";
+
+main {
+    display: flex;
+    // flex-direction: column;
+    justify-content: space-around;
+    // max-width:fit-content;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+
+
+ 
+    article {
+      margin: 20px 20px;
+      border: 1px solid red;
+      border-radius: 8px;
+      overflow: hidden;
+      text-align: center;
+      background-color: $primary-color;
+    //   width: 400px;
+        section {
+            .blog-image {
+                width: 400px;
+            }
+        }
+    }
+}
